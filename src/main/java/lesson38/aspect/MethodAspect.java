@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
 
 @Aspect
 @Component
-public class MethodTimeLoggingAspect {
+public class MethodAspect {
 
     private static final Path LOG_FILE_PATH = Path.of("method-log.txt");
 
